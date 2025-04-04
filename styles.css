@@ -1,4 +1,4 @@
-/* General Reset and Base Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -53,7 +53,7 @@ header h3, header p {
     color: #555;
 }
 
-/* Hero Section */
+
 .hero {
     background: linear-gradient(to right, #00bfa6, #009688);
     color: white;
@@ -194,7 +194,6 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Responsive Tweaks */
 @media (max-width: 600px) {
     .navbar {
         flex-direction: column;
