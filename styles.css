@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a1c935; /* Light green background */
+    text-align: center;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #f79c1c; /* Orange color */
+    padding: 15px 0;
+    font-size: 20px;
+}
+
+.navbar a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+.navbar a:hover {
+    color: #fff;
+}
+
+/* Header */
+header {
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 32px;
+    color: #333;
+}
+
+h3 {
+    font-size: 20px;
+    color: #666;
+}
+
+/* Section */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 900px;
+}
+
+/* Skills List */
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Projects Section */
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background: white;
+    padding: 15px;
+    margin: 10px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #f79c1c;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
