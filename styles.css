@@ -33,7 +33,8 @@ body {
 }
 
 .navbar a:hover {
-    color: #00bfa6;
+    color: #fa6610;
+
 }
 
 /* Header Section */
@@ -76,6 +77,24 @@ header h3, header p {
 }
 
 /* Skills Container */
+.header-selection {
+    text-align: center;
+    padding: 2rem;
+    background-color: rgb(49, 248, 248);
+    border-radius: 12px;
+    margin: 2rem auto;
+    max-width: 600px;
+}
+.profile-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 4px solid white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
 .skills-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -100,7 +119,7 @@ header h3, header p {
 .skill-card h2 {
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
-    color: #00bfa6;
+    color: #54b6e4;
 }
 
 /* Projects Section */
@@ -111,10 +130,11 @@ header h3, header p {
     padding: 2rem;
     max-width: 1000px;
     margin: auto;
+
 }
 
 .project-card {
-    background: #fff;
+    background: #52d4ca;
     border-radius: 12px;
     padding: 1rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
@@ -130,6 +150,14 @@ header h3, header p {
 }
 
 /* Contact Info */
+.header-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: aquamarine;
+    border-radius: 12px;
+    margin: 2rem auto;
+    max-width: 600px;
+}
 .contact-info {
     max-width: 600px;
     margin: 2rem auto;
@@ -159,7 +187,7 @@ header h3, header p {
 }
 
 .social-links a:hover {
-    color: #00bfa6;
+    color: #f06406;
 }
 
 /* About Section */
