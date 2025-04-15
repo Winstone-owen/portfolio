@@ -174,13 +174,18 @@ header h3, header p {
 
 .social-links {
     display: flex;
+    justify-content: center;
+    align-items: left;
+    font-size: larger;
     flex-direction: column;
-    gap: 0.8rem;
-    margin: 1rem 0;
+    gap: 1rem;
+    margin-top: 1rem;
 }
 
 .social-links a {
     color: #1f1f1f;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s;
@@ -188,6 +193,8 @@ header h3, header p {
 
 .social-links a:hover {
     color: #f06406;
+    font-size: 150%;
+    text-decoration: underline;
 }
 
 /* About Section */
